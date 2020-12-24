@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap');
+.container {
+  max-width: 400px;
+  min-height: 450px;
+  margin: 0 auto;
+  background-color: antiquewhite;
+  box-shadow: 0 0 10px #efefef;
+  margin-top: 50px;
+  padding: 10px 50px;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 700;
+  color: brown;
+}
+
+.text-center{
+  text-align: center;
+}
+
+.expense-container{
+  display: flex;
+  justify-content: space-around ;
+  color: #efefef;
+  background-color: brown;
+  box-shadow: 0 0 10px #e4e4e4;
+  text-align: center;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 400;
+}
+.balance-display{
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 600;
+}
+
+.hr{
+  background-color: brown;
+}
+
+.transaction-form input{
+  width: 100%;
+  margin: 10px 0px;
+  padding: 5px 0px;
+}
+.transaction-list{
+  margin: 0px;
+  padding: 0px;
+  background-color: rgb(255, 255, 255);
+  color: brown;
+}
+.transaction-list > li{
+  display: flex;
+  justify-content: space-around;
+  margin: 5px 0px;
+  padding: 10px 5px;
+  box-shadow: 0 0 10px #e4e4e4;
+}
