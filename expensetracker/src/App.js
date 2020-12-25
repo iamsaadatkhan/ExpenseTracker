@@ -1,14 +1,15 @@
 import './App.css';
 import Child from './Child';
-import transactionContext from './transactionContext';
+import {TransactionProvider} from './transactionContext';
 
 function App() {
-  return (
-    <div className="">
+  return (    
+  <TransactionProvider><Child /></TransactionProvider>
+  
+
+     
     
-     <Child />
-    
-    </div>
+   
   );
 }
 

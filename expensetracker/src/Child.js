@@ -2,7 +2,7 @@ import React, { useContext } from 'react';
 import transactionContext from './transactionContext'
 
 const Child = () => {
-   let transaction = useContext(transactionContext)
+   let {transaction} = useContext(transactionContext)
 
     return (
 
@@ -23,7 +23,7 @@ const Child = () => {
             <div>
                 <ul className='transaction-list'>
                     {transaction.map((transObj , ind)=>{
-                        return(<li>
+                        return(<li key={ind}>
                             <span>{transObj.desc}</span>
                             <span>{transObj.amount}</span>
                             
