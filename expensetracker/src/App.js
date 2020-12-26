@@ -5,7 +5,7 @@ import {TransactionProvider} from './transactionContext';
 function App() {
   return (    
   <TransactionProvider><Child /></TransactionProvider>
-  
+  // <Child/>
 
      
     
